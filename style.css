@@ -68,6 +68,11 @@ button:hover{
     color: white;
 }
 
+img.cible{
+    border-radius: 20px;
+    max-width: 30%;
+}
+
 @property --angle{
     syntax: '<angle>';
     initial-value: 0deg;
