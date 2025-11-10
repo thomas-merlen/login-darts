@@ -94,6 +94,10 @@ img.cible{
     h1{
         font-size: 1.7em;
     }
+
+    img.cible{
+        max-width: 100%;
+    }
 }
 
 
