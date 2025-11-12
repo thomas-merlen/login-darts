@@ -1,15 +1,27 @@
 body{
     font-family: "Poppins", "Segoe UI", sans-serif;
-    background-color:  black;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0;
-    text-align: center;
+    display: flex;                
+    justify-content: center;      
+    align-items: center;          
+    height: 100vh;
+}
+
+div.login{
+    width: 100%;
 }
 
 h1{
     font-size: 2.2em;
-    margin-top: 1.5em;
-    color: #fce7bb;
+    color: black;
+    text-align: center;
+    margin-top: -1%;
+    text-transform: uppercase;
 }
 
 form{
@@ -23,7 +35,6 @@ form{
     border: 5px solid transparent;
     border-radius: 10px;
 }
-
 
 label{
     font-weight: bold;
@@ -68,11 +79,6 @@ button:hover{
     color: white;
 }
 
-img.cible{
-    border-radius: 20px;
-    max-width: 30%;
-}
-
 @property --angle{
     syntax: '<angle>';
     initial-value: 0deg;
@@ -90,14 +96,4 @@ img.cible{
         width: 85%;
         padding: 1.5em;
     }
-
-    h1{
-        font-size: 1.7em;
-    }
-
-    img.cible{
-        max-width: 100%;
-    }
 }
-
-
